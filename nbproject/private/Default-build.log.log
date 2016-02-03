@@ -1,0 +1,2 @@
+lex --outfile=t1.yy.c t1.l
+gcc -o t1 t1.yy.c -ll -lfl 
